@@ -36,7 +36,8 @@ input{
 }
 
 legend{
-	background-color: grey;
+	background-color: lightgrey;
+	font-size: 20px;
 }
 
 fieldset{
