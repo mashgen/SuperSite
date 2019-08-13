@@ -1,0 +1,44 @@
+html {
+	background: #F8F8F8
+}
+.menu li{
+	font: bold, 20px Arial, sans-serif;
+	color: darkblue;
+	list-style: none;
+}
+
+.characteristics li{
+	list-style-position: inside;
+	list-style-image: url(2.png);
+}
+
+.usluga h1, h2, h3, h4{
+	color: black;
+	font: 400 18px;
+	background-color: #eaeaea;
+}
+
+.short_description{
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 24px;
+}
+
+.full_description{
+	color: #484343;
+	font: 400 16px;
+	line-height: 24px;
+	text-align: left;
+}
+input{
+	font-size: 15px;
+}
+
+legend{
+	background-color: grey;
+}
+
+fieldset{
+	background-color: #eaeaea;
+}
