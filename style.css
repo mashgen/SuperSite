@@ -1,10 +1,15 @@
 html {
 	background: #F8F8F8
 }
-.menu li{
-	font: bold, 20px Arial, sans-serif;
-	color: darkblue;
+.menu li {
+	font: bold, 30px, Arial, sans-serif;
+	font-size: 20px;
+	color: darkgreen;
 	list-style: none;
+}
+
+.menu a:hover{
+	color: red;
 }
 
 .characteristics li{
@@ -42,4 +47,18 @@ legend{
 
 fieldset{
 	background-color: #eaeaea;
+}
+
+.short_info{
+	width: 200px;
+	height: 20px;
+}
+
+input[type="email"]:focus {
+	background-color: navy;
+    color: #ffe;
+}
+
+input[type="text"]:focus, textarea:focus{ 
+	text-transform: capitalize;
 }
