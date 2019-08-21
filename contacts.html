@@ -6,11 +6,15 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<ul class="menu">
-		<li> <a href="index.html">Главная страница</a></li>
-		<li><a href="catalog.html">Каталог</a> </li>
-		<li>Контакты</li>
-	</ul>
+	<div class="header">
+		<img src="3.jpg" title="Это прекрасное лого нашего магазина">
+		<!-- Пока не поняла, как это красиво оформить-->
+		<ul class="menu">
+			<li> <a href="index.html">Главная страница</a></li>
+			<li><a href="catalog.html">Каталог</a> </li>
+			<li>Контакты</li>
+		</ul>
+	</div>
 	<hr>
 	<h2> Напишите нам! </h2>
 	<p> Мы готовы к любой критике и предложениям. </p>
@@ -20,7 +24,10 @@
 		<input class="short_info" type="text" placeholder="Ваше Имя"> <br>
 		<input class="short_info" type="email" placeholder="Email"> <br> <br>
 		<input class="short_info" type="text" placeholder="Тема"> <br>
-		<textarea placeholder="Ваше сообщение" cols = "60" rows = "10"></textarea> <br>
+		<textarea placeholder="Ваше сообщение" cols = "60" rows = "10">
+		<!-- почему-то ставиттся лишний пробел, при обновлении страницы, и не видно placeholder-->
+		</textarea> <br>
+
 		<input type="submit" value="Отправить">
 	</fieldset>
 	</form>
@@ -31,6 +38,6 @@
 	</p>
 
 
-	<footer> <hr> &copy; Все права защищены. Но мы не знаем кем.</footer>
-</body>
+	<div class ="footer"> 
+	<hr> &copy; Все права защищены. Но мы не знаем кем.</div>
 </html>
