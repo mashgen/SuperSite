@@ -62,3 +62,10 @@ input[type="email"]:focus {
 input[type="text"]:focus, textarea:focus{ 
 	text-transform: capitalize;
 }
+
+table { 
+	border: 1px solid #000; 
+} 
+td{
+	border: 1px solid #000; 
+}
